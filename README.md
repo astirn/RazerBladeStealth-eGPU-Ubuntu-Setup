@@ -34,8 +34,8 @@ Use at your own risk!
 ## Configure eGPU
 Only use eGPU if the eGPU has a monitor attached. Otherwise, the eGPU will be disabled on boot. 
 
-1. Boot laptop unplugged from Razer Core.
-2. Power on Razer Core and connect to Thunderbolt 3 port.
+1. Boot laptop unplugged from Razer Core X
+2. Power on Razer Core and connect to Thunderbolt 3 port
 3. Install and follow instructions from [egpu-switcher](https://github.com/hertg/egpu-switcher)
    - `lspci -nn` will will help associate device IDs with device names
 4. Reboot
