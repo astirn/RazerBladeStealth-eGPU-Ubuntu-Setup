@@ -25,9 +25,9 @@ Use at your own risk!
    sudo apt autoremove
    ```
 6. Fix susped loop:
-   - sudo gedit /etc/default/grub
-   - Modify GRUB_CMDLINE_LINUX_DEFAULT="quiet splash button.lid_init_state=open"
-   - sudo update-grub
+   - `sudo gedit /etc/default/grub`
+   - Modify `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash button.lid_init_state=open"`
+   - `sudo update-grub`
 7. Reboot
 
 
@@ -42,16 +42,20 @@ Only use eGPU if the eGPU has a monitor attached. Otherwise, the eGPU will be di
 
 
 ## Install/Remove Software
-1. `sudo apt purge thunderbird`
-2. `sudo apt install libfuse2` enables AppImages to work
-3. `sudo apt install texlive-science texlive-pictures texlive-latex-extra`
-4. `sudo snap install slack`
-5. `sudo snap install pycharm-professional --classic` (still needs classic confinement)
-6. [Zoom](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux)
-7. [pCloud](https://www.pcloud.com/download-free-online-cloud-file-storage.html)
-8. [Bitwarden](https://bitwarden.com/download/)
-9. [Write](https://www.styluslabs.com/)
-10. [Zotero](https://www.zotero.org/download/)
+1. Remove Thunderbird
+   ```
+   sudo apt purge thunderbird
+   sudo apt autoremove
+   ```
+3. `sudo apt install libfuse2` enables AppImages to work
+4. `sudo apt install texlive-science texlive-pictures texlive-latex-extra`
+5. `sudo snap install slack`
+6. `sudo snap install pycharm-professional --classic` (still needs classic confinement)
+7. [Zoom](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux)
+8. [pCloud](https://www.pcloud.com/download-free-online-cloud-file-storage.html)
+9. [Bitwarden](https://bitwarden.com/download/)
+10. [Write](https://www.styluslabs.com/)
+11. [Zotero](https://www.zotero.org/download/)
 
 [Station](https://getstation.com/) is a smart browser for gmail, GitHub, LinkedIn, etc...
 However, it does not have an icon and cannot be added as a favorite to the Ubuntu's dock.
