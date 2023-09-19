@@ -1,5 +1,6 @@
 # RazerBladeStealth-eGPU-Ubuntu-Setup
 These instructions work for a Razer Blade Stealth 13" (Early 2020, RZ09-0310) with a GTX 1650 Ti iGPU and a RTX 3090 eGPU inside a Razer Core X.
+These instructions specifically create my working environment with all necessary software.
 Use at your own risk!
 
 ## Install and Configure Ubuntu
