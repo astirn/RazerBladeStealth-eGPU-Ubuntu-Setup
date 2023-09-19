@@ -62,7 +62,7 @@ Try [this](https://askubuntu.com/questions/973755/how-do-i-add-an-appimage-appli
 1. Install Docker per [Ubuntu Instructions](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 2. Complete linux [post-implementation steps](https://docs.docker.com/engine/install/linux-postinstall/)
 3. Install [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#)
-
+4. Reboot
 
 ## Configure Pycharm for Docker
 1. Edit run configuration for Dockerfile args to show: `USER_ID=1000; GROUP_ID=1000`
