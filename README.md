@@ -51,11 +51,11 @@ Only use eGPU if the eGPU has a monitor attached. Otherwise, the eGPU will be di
 4. `sudo apt install texlive-science texlive-pictures texlive-latex-extra`
 5. `sudo snap install slack`
 6. `sudo snap install pycharm-professional --classic` (still needs classic confinement)
-7. [Zoom](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux)
-8. [pCloud](https://www.pcloud.com/download-free-online-cloud-file-storage.html)
-9. [Bitwarden](https://bitwarden.com/download/)
-10. [Write](https://www.styluslabs.com/)
-11. [Zotero](https://www.zotero.org/download/)
+7. `sudo snap isntall zotero-snap`
+8. [Zoom](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux)
+9. [pCloud](https://www.pcloud.com/download-free-online-cloud-file-storage.html)
+10. [Bitwarden](https://bitwarden.com/download/)
+11. [Write](https://www.styluslabs.com/)
 
 [Station](https://getstation.com/) is a smart browser for gmail, GitHub, LinkedIn, etc...
 However, it does not have an icon and cannot be added as a favorite to the Ubuntu's dock.
