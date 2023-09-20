@@ -61,8 +61,7 @@ Only use eGPU if the eGPU has a monitor attached. Otherwise, the eGPU will be di
 For AppImages that cannot be added as favorites to the Ubuntu dock:
 1. Create `name_of_application.desktop` file
 2. `desktop-file-validate name_of_application.desktop`
-3. `desktop-file-install --dir=~/.local/share/applications path_to_desktop_file/name_of_application.desktop`
-4. update-desktop-database ~/.local/share/applications
+3. `desktop-file-install --dir=/home/andrew/.local/share/applications path_to_desktop_file/name_of_application.desktop`
 
 
 ## Install Docker with NVIDIA Support
