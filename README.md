@@ -55,11 +55,14 @@ Only use eGPU if the eGPU has a monitor attached. Otherwise, the eGPU will be di
 8. [Zoom](https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux)
 9. [pCloud](https://www.pcloud.com/download-free-online-cloud-file-storage.html)
 10. [Bitwarden](https://bitwarden.com/download/)
-11. [Write](https://www.styluslabs.com/)
+11. [Station](https://getstation.com/)
+12. [Write](https://www.styluslabs.com/)
 
-[Station](https://getstation.com/) is a smart browser for gmail, GitHub, LinkedIn, etc...
-However, it does not have an icon and cannot be added as a favorite to the Ubuntu's dock.
-Try [this](https://askubuntu.com/questions/973755/how-do-i-add-an-appimage-application-to-favorites-in-gnome-shell).
+For AppImages that cannot be added as favorites to the Ubuntu dock:
+1. Create `name_of_application.desktop` file
+2. `desktop-file-validate name_of_application.desktop`
+3. `desktop-file-install --dir=~/.local/share/applications path_to_desktop_file/name_of_application.desktop`
+4. update-desktop-database ~/.local/share/applications
 
 
 ## Install Docker with NVIDIA Support
