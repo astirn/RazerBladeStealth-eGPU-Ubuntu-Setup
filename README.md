@@ -47,6 +47,7 @@ Only use eGPU if the eGPU has a monitor attached. Otherwise, the eGPU will be di
    sudo apt purge thunderbird
    sudo apt autoremove
    ```
+2. `sudo apt install vpnc network-manager-vpnc network-manager-vpnc-gnome` enables Cisco VPN natively
 3. `sudo apt install libfuse2` enables AppImages to work
 4. `sudo apt install texlive-science texlive-pictures texlive-latex-extra`
 5. `sudo snap install slack`
