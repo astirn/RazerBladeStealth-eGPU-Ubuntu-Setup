@@ -76,3 +76,11 @@ For AppImages that cannot be added as favorites to the Ubuntu dock:
 ![Dockerfile Run Config](docker_config.png)
 2. Edit python run configuration template and modify Docker options:
 ![Dockerfile Run Config](python_config.png)
+
+## Install Wine
+Per [these instructions](https://github.com/hertg/egpu-switcher)
+1. Make sure i386 is installed: `dpkg --print-foreign-architectures` shoud print `i386`
+2. `sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key`
+3. `sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources`
+4. `sudo apt update`
+5. `sudo apt install --install-recommends winehq-stable`
